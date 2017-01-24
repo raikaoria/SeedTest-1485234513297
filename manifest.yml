@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SeedTest
+  host: SeedTestHost
+  disk_quota: 1024M
+  services:
+  - SeedTest-cloudantNoSQLDB
+  - SeedTest-iotf-service
